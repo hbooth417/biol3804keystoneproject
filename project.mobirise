@@ -1,0 +1,1902 @@
+{
+  "settings": {
+    "name": "hbooth",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#D901ED",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      },
+      "additionalSetColors": [
+        "#f59d52"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 56,
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ed703c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ed703c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ed703c"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ed703c",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ed703c"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ed703c",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">About project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cdiversity.html\">COURTSHIP DIVERSITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mechanisms.html\">MECHANISMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"animal-examples.html\">ANIMAL EXAMPLES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quiz.html\">QUIZ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1269.png",
+              "height": 128,
+              "alt": "Home Logo",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-3"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpeg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.35
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<br>BIOL 3804 <br>Capstone Project<br><br>Diversity of Courtship Behaviour throughout the Animal Kingdom",
+          "text": "<br><br>Animals are a diverse and complex group of living organisms. The diversity exists in all aspects of life, including the way individuals’ mate and reproduce. Courtship rituals and &nbsp;reproductive behaviours differ from species to species, however all of such behaviours &nbsp;universally serve the same purpose. This paper describes multiple explanations as to why &nbsp;courtship behaviours are so divers, as well as what mechanisms may in action to drive the &nbsp;evolution of these behaviours.<br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"about.html\" class=\"btn btn-danger\" role=\"button\">ABOUT PROJECT</a> <a data-app-btn=\"true\" href=\"quiz.html\" class=\"btn btn-danger\" role=\"button\">GO TO QUIZ</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-6",
+          "_styles": {
+            "H1": {
+              "font-size": "48px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Text with heading",
+          "text": "It is possible that courtship behaviours have become so diverse because of evolution and &nbsp;the creation of new species with similar but changed courtship behaviours. Adaption may also be &nbsp;playing a roll in diversity in reproductive behaviours, as changing environments change the value &nbsp;of certain behaviours compared to another. Game theory explains the above point by explaining &nbsp;that organism will likely preform behaviours that are most beneficial to them depending on their &nbsp;environment. Mechanisms such as operational sex ratio, mating systems, and parental care of a species’ offspring may all be examples of underlying reasons why courtship behaviours have\nbecome so diverse. While there is no certain cause for the diversity of courtship behaviours, &nbsp;there are several mechanisms acting on organism through time and space that help us understand &nbsp;the evolution of the diversity of courtship behaviours.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_anchor": "text9-y",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-size": "18px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#eb5a1a"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2020 All rights reserved. <br>Hannah Booth<br>101083845<br><br>BIOL 3804 Capstone Project<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-h"
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "About Project",
+        "order": 2,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ed703c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ed703c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ed703c"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ed703c",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ed703c"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ed703c",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">About project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cdiversity.html\">COURTSHIP DIVERSITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mechanisms.html\">MECHANISMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"animal-examples.html\">ANIMAL EXAMPLES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quiz.html\">QUIZ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1269.png",
+              "height": 128,
+              "alt": "Home Logo",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-9"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#757575",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.35
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "About Project",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id eligendi assumenda, cumque optio veniam eos perferendis molestias explicabo odit. Libero, suscipit. Quae praesentium, tempore minima quod tempora odio cumque nam mollitia dolores possimus porro omnis aliquid deserunt magnam non voluptates? Beatae quod illum ullam unde, quae, distinctio architecto modi.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-e"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "showTitle": false,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Text with heading",
+          "text": "<p>&nbsp; &nbsp;&nbsp;<span style=\"background-color: inherit;\">The animal kingdom contains a tremendous amount of diversity. Diversity exists in all&nbsp;</span><span style=\"background-color: inherit;\">different forms including physiological characteristics, biological processes, and the behaviours </span><span style=\"background-color: inherit;\">of individuals and species. All animal species have behaviours that are similar to those seen in </span><span style=\"background-color: inherit;\">humans, such as selfishness, cooperation, aggression, and altruism. There is also diversity in&nbsp;</span><span style=\"background-color: inherit;\">reproductive and courtship behaviours. Animal courtship behaviours occur when individuals are&nbsp;</span><span style=\"background-color: inherit;\">interested in reproducing. Specific rituals or behaviour are preformed as signals to the opposite&nbsp;</span><span style=\"background-color: inherit;\">sex that illustrate, they are interested in mating. In other words, courtship rituals in animals is a&nbsp;</span><span style=\"background-color: inherit;\">way of impressing the opposite sex in hopes that they will mate with them.</span></p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-c"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "showTitle": false,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Columns with heading",
+          "text1": "<p>&nbsp; &nbsp; Diversity of courtship can exist in types of displays, such as a aesthetic showing of bright colours, attractive movements or vocalizations, or displays of aggression or strength. The diversity in courtship behaviours can also stem from the individual(s) who display them. In some species the male participates in the courtship displays, however in others, it is the female who\ntries to woo the male. There are also species where both males and females put on the mating\ndisplay.<br>\n<br></p>",
+          "text2": "<p>&nbsp; &nbsp;&nbsp;<span style=\"background-color: inherit;\">The diversity of courtship behaviours in the animal kingdom, can be broadly compared to&nbsp;</span><span style=\"background-color: inherit;\">the mating behaviours of humans. With some exceptions of course! In humans, the goal of&nbsp;</span><span style=\"background-color: inherit;\">courtship and copulation is not always to reproduce. Human relationships are based on trust,&nbsp;</span><span style=\"background-color: inherit;\">respect, friendship, honestly, and many other qualities that animals don’t innately possess. The&nbsp;</span><span style=\"background-color: inherit;\">unique cognitive abilities of humans allow us to have complex relationships with other people,&nbsp;</span><span style=\"background-color: inherit;\">making our courtship styles more complex than multiple species combined.</span></p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text4",
+          "_anchor": "text4-f"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": false,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Text with heading",
+          "text": "In this interactive website, we will explore some interesting questions surrounding the\ndiversity of courtship rituals and reproductive behaviours. Diving into the question: Why is\ncourtship so diverse? and Are there mechanisms that explain why these different types of\nbehaviours have evolved? We will also look at different interesting examples of courtship styles\nin the animal kingdom, and compare them to those found in humans as an added bonus.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-g"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#ed703c"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2020 All rights reserved. <br>Hannah Booth<br>101083845<br><br>BIOL 3804 Capstone Project<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-h"
+        }
+      ]
+    },
+    "cdiversity.html": {
+      "settings": {
+        "title": "Courtship Diversity",
+        "order": 3,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ed703c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ed703c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ed703c"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ed703c",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ed703c"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ed703c",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">About project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cdiversity.html\">COURTSHIP DIVERSITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mechanisms.html\">MECHANISMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"animal-examples.html\">ANIMAL EXAMPLES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quiz.html\">QUIZ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1269.png",
+              "height": 128,
+              "alt": "Home Logo",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-k"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#757575",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.35
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Why is courtship so diverse?",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id eligendi assumenda, cumque optio veniam eos perferendis molestias explicabo odit. Libero, suscipit. Quae praesentium, tempore minima quod tempora odio cumque nam mollitia dolores possimus porro omnis aliquid deserunt magnam non voluptates? Beatae quod illum ullam unde, quae, distinctio architecto modi.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-l",
+          "_styles": {
+            "H1": {
+              "font-size": "84px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Text with heading",
+          "text": "<br>To examine why diversity of courtship behaviours exists, there are three main concepts to\nconsider. The first two are evolution and environmental adaptions, which are related to Niko\nTinbergen’s four questions of animal behaviour. The third topic to consider is game theory.<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_anchor": "text9-q",
+          "_styles": {
+            "P": {
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Niko Tinbergen’s Four Questions",
+          "text1": "To answer question posed above, the origins of the behaviour must be considered. To do this, Niko Tinbergen’s four questions of animal behaviour are useful in determining the lineages of the behaviour (Tinbergen, 1963). Figure 1 outlines the differences between Tinbergen’s four questions. In Tinbergen’s studies, he found that the study of animal behaviours can be based on 2 levels, proximate and ultimate (Tinbergen, 1963). For the purpose of looking at the origins of courtship behaviour, we will be focusing on the ultimate mechanisms that sculpt behaviour: phylogeny, and adaptive value.",
+          "text2": "<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text4",
+          "_anchor": "text4-t",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-after-navbar\" data-rv-view=\"101\" style=\"background-color: rgb(255, 255, 255);\">\n    <div class=\"intro page_head text-center\" style=\"padding-top: 0px; padding-bottom: 40px;\">\n        \n        <div class=\"container\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <div class=\"separator transparent\"></div>\n                    <div class=\"row\">\n                        <div class=\"col-md-6\">\n                            <br><br><br>\n                            <h3 class=\"styled mbr-editable-content\" code-editable-id=\"26\">Niko Tinbergen’s Four Questions</h3>\n                            <p class=\"mbr-editable-content\" code-editable-id=\"27\"></p><p>&nbsp;&nbsp;&nbsp;&nbsp;To answer question posed above, the origins of courtship behaviour must be considered.\nNiko Tinbergen’s four questions of animal behaviour are useful in determining the lineages of\nthe behaviour (Tinbergen, 1963). Figure 1 outlines the differences between Tinbergen’s four\nquestions. In Tinbergen’s studies, he found that the study of animal behaviours can be based on 2\nlevels, proximate and ultimate (Tinbergen, 1963). For the purpose of looking at the origins of\ncourtship behaviour, we will be focusing on the ultimate mechanisms that sculpt behaviour:\nphylogeny, and adaptive value.</p><p></p>\n                        </div>\n                        <div class=\"col-md-6\">\n                            <!-- Need to put image here -->\n                            <img src=\"C:\\Users\\Alex\\Documents\\Mobirise\\Hannah BIOL3804\\assets\\images\\fourQ.png\" alt=\"Niko Tinbergens Four Question\">\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div></section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "P {\n  text-align: left;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Phylogeny",
+          "text1": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Phylogeny is based on the evolution of a species. A phylogeny is a term used to describe a group of species that are related to each other through evolutionary time (Tinbergen, 1963). Scientists use phylogeny to hypothesis relatedness between species that possess similar traits, and the possibilities of how they may have evolved from a common ancestor (Tinbergen, 1963). That being said, it is possible that evolution may be a reason why courtship and reproductive behaviours may be so diverse. Over time, single species have evolved in different directions to create different species, which may has caused variation of similar courtship behaviours, and the formation of new ones, from a common ancestor. An example of this can be found in the Tit family of birds.</p>",
+          "text2": "<p>&nbsp;&nbsp;&nbsp;&nbsp;The family of tit birds is incredibly diverse; however, their courtship generally involves the use of intricate chirps as mating calls. While the courtship behaviour similar between all tits, there is diversity in the bird songs between species, and individuals within a species (Doutrelant, 2003). A study by Doutrelant et al. demonstrates that within the Blue tit species, males who have a greater amount of songs are more attractive to females (2003). This illustrates that through time, females are driving evolution by choosing individuals with more complex songs. As populations get fragmented new species begin to evolve, their songs change to become increasingly more complex (Laiolo, 2008). The assortment of songs within these taxa of birds is a process of evolution, and how the species may be similar in courtship styles, still exhibit a diversity in their calls</p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text4",
+          "_anchor": "text4-u"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Adaptive Value",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;The adaptive value of a trait or behaviour is also referred to as the survival value, adaptive significance, or function. It is overall the idea that traits and behaviours change and have adapted based on their value to an individual in a specific condition. The value of a trait is dependent on the environment that the organism is exposed to. Changing environments causes behaviour to adapt based on their value.<br>\n<br>               &nbsp;&nbsp;&nbsp;&nbsp; It can be hypothesised that a reason why courtship displays are so diverse is because of the different environments that they evolved in. Species that live in arctic conditions will have different reproductive behaviours than species from more tropical environments. Species related by an ancient common ancestor that have evolved under different environmental conditions are likely to have changed their reproductive behaviours based on which behaviours are more beneficial. </p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-v"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Game Theory",
+          "text1": "<p>&nbsp; &nbsp;&nbsp;<span style=\"background-color: inherit;\">Game theory is a statistical model created by John von Neumann, that was investigated later by biologists to study behaviour. When animals are faced with any kind of situation, their behaviour can determine whether the result of the situation will resolve beneficially, costly, or have an equal cost and benefit. To explain this further, consider the following: a hungry tiger is placed in a cage with an unfamiliar hungry tiger, the middle of the cage contains a pile of food. The result of this thought experiment can go one of four ways: (1) both tigers fight for food, neither of them benefit, (2) Tiger one fights tiger two, tiger one wins and receives all the food, (3) Tiger two fights tiger one, tiger two wins leaving none for tiger two, (4) both tigers share the food. This is an example of how game theory might work; the actions of each individual determine their outcome of costs or benefits.&nbsp;</span></p>",
+          "text2": "<p>&nbsp;&nbsp;&nbsp;Relating back to courtship rituals and reproductive behaviours, in most cases the benefit of reproduction is far greater than the cost, as the goal in animal copulation is reproduction. Game theory is more related to the evolution of the courtship behaviours, as well as the type of reproductive relationships of a species. Similar to the adaptive value concept, game theory illustrates that individuals will choose behaviours that are most beneficial depending on the circumstances. This is a demonstration that over time reproductive behaviours that are the most beneficial to an individual will be passed along to future generations, and be learned by other individuals, while other behaviours that are less useful will be left behind. This creates diversity of these behaviours between species and individuals within a species. </p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text4",
+          "_anchor": "text4-w"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#ed703c"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2020 All rights reserved. <br>Hannah Booth<br>101083845<br><br>BIOL 3804 Capstone Project<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-p"
+        }
+      ]
+    },
+    "mechanisms.html": {
+      "settings": {
+        "title": "Mechanisms",
+        "order": 4,
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ed703c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ed703c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ed703c"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ed703c",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ed703c"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ed703c",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">About project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cdiversity.html\">COURTSHIP DIVERSITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mechanisms.html\">MECHANISMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"animal-examples.html\">ANIMAL EXAMPLES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quiz.html\">QUIZ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1269.png",
+              "height": 128,
+              "alt": "Home Logo",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-11"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#757575",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.35
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Are there mechanisms that explain why these different types of behaviours have evolved?\r",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id eligendi assumenda, cumque optio veniam eos perferendis molestias explicabo odit. Libero, suscipit. Quae praesentium, tempore minima quod tempora odio cumque nam mollitia dolores possimus porro omnis aliquid deserunt magnam non voluptates? Beatae quod illum ullam unde, quae, distinctio architecto modi.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "font-size": "60px"
+            }
+          },
+          "_anchor": "header1-12"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Text with heading",
+          "text": "<br> When investigating potential reasons that explain evolution of different types of courtship behaviours, there are three potential answers: the demographics of the species or population at question, the mating systems of the species, and the parental care that the species partakes in. While these three concepts can be possible explanations to the diversity of courtship behaviours, there are still many other explanations that can be considered that will not be investigated on this website.<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_styles": {
+            "P": {
+              "font-size": "20px",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "text9-13"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Demographics",
+          "text": "<p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"background-color: inherit;\">What this section is referring to, is the structure of the population of the species in a particular area. This is important in regards to courtship styles because it influences the amount of sexual selection occurring in the population, as well as if the male or female will participate in the courtship rituals or be selective. Operational sex ratio (OSR) is the ratio comparing males to females in a population (Kvarnemo, 1996). When the OSR is high it indicates there are more males in a population than females. As a result, males would be more likely to sexually select for females with desirable traits or behaviours (Kvarnemo, 1996). When the OSR is low, there are more females than males. A low OSR leads to female sexual selection, and competition between males for mates (Kvarnemo, 1996).&nbsp;</span></p><p>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"background-color: inherit;\">The dynamic of the population in regards to is demographic influences sexual systems of a species and the types of mating rituals that will be conducted. This is an example of how different courtship behaviours have evolved because it demonstrates variation may stem from differences in population demographics of a species.</span></p><p></p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-16"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Mating Systems",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;As mentioned, multiple times previously, the general difference between species and their mating systems has a substernal influence on the diversity in courtship behaviours. Some examples different mating systems, are monogamy, polygamy, and polymorphic species. A polyamorous species, is a species with individuals who have more than one mate. This would change from a species that is monogamous, which means they only have one mating partner per season, or lifetime. Polymorphic mating systems have males with different morphologies, meaning they all look different, that all have different reproductive behaviours depending on their size or appearance. The variety of mating strategies in the animal kingdom contributes to the amount of diversity in courtship behaviours because different animals have different goals of reproductive success.</p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-19"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Parental Care",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Similar to mating strategies, parental care can also be incorporated to the cause of diversity in courtship styles. For example, different species have paternal, maternal, or joint care of offspring. The care of offspring is in turn related back to the demographic of the population. To explain, a population with a high OSR will be likely to have maternal care because the males will want to leave and copulate with as many females as possible. Populations with a low OSR will be more likely for paternal care of offspring, or joint care of offspring because there are fewer males present and they want to protect their genetic livelihood.  An example of how parental care influence courtship behaviours can be found when looking at a species with paternal care of offspring. Males will likely be involved in competition between other males to mate with females, or have a mating system that is regulated by female sexual selection. This will lead to a more aggressive style of courtship behaviours, as the male is trying to show off.</p><br><br><p>&nbsp;&nbsp;&nbsp;&nbsp;Demographics, mating systems and parental care, are likely not the only reasons to explain why different types of courtship behaviours have evolved. These examples do however work to explain some mechanisms involved that increase the amount of diversity related to sexual behaviours in animals. The ratio of males to females influences the amount of sexual selection or competition within the population, which causes differences in courtship rituals to evolve. The mating systems of different animals is influences by the OSR of the population, and will affect the parental care of the offspring. The differences in mating systems and parental care will allow for diversity in reproductive behaviours to arise.<br></p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-1a"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#ed703c"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2020 All rights reserved. <br>Hannah Booth<br>101083845<br><br>BIOL 3804 Capstone Project<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-18"
+        }
+      ]
+    },
+    "animal-examples.html": {
+      "settings": {
+        "title": "Animal Examples",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ed703c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ed703c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ed703c"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ed703c",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ed703c"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ed703c",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">About project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cdiversity.html\">COURTSHIP DIVERSITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mechanisms.html\">MECHANISMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"animal-examples.html\">ANIMAL EXAMPLES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quiz.html\">QUIZ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1269.png",
+              "height": 128,
+              "alt": "Home Logo",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-1b"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showImages": true,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Prairy Voles",
+          "subtitle1": "<i>Microtus ochrogaster</i>",
+          "text1": "The Prairie vole is a small North American rodent, that is known to live in fields with dry\ngrass and weeds. What makes these little guys special is their ability to form strong pair bonds to each other (McGraw, 2010). These little guys choose their mate selectively, and are known for\ntheir monogamous relationship (Winslow, 1993). Once they find their mate, and reproduce, they\nhave been known to be very nurturing and protective of their significant other. These voles spend\nmost of their time together burrowing and foraging, they protect their loved ones by showing\naggressive behaviours to strangers that approach them (Winslow, 1993). They have also been\nobserved to give kisses and hugs to their partner when they are stressed (McGraw, 2010).",
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpeg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons1": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title2": "Blue Manakin",
+          "subtitle2": "<i>Chiroxiphia caudata</i>",
+          "text2": "The blue manakin bird is a tropical bird found in the forests of Brazil, Paraguay and Argentina (Duraes, 2009). This species of bird uses complex leks involving other male in their mating rituals to attract females and court females. This means that males will preform their courtship dance with a group of males, in a distinct territory (Duraes, 2009). To do this, the males will line up in front of a female on a perch, and will show off by preforming a cartwheeling dance, there is generally one dominant male who will inevitably woo the female. The first bird in line on the perch will fly upward and down to the end of the line, the proceeding male will subsequently do the same, and the dance continues in said way until the dance is complete. While this species is not commonly known for being monogamous, their cooperation with their conspecifics in order impress the opposite friends is notably remarkable.",
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/chiroxiphia-caudata-2-888x888.jpeg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons2": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title3": "<i>Paratrechalea ornata</i>",
+          "subtitle3": "",
+          "text3": "The Paratrechalea ornate is a species of nocturnal spiders that is known for nuptial gift-giving. A nuptial gift is a gift given to one’s sexual partner in the form of food. In this species, the female is particularly choosy, while the males work hard to impress the females with their gifts. A male will capture and wrap its prey with webbing and present it to the female. Males who provide the females with gift, and larger gifts are more likely to copulate with the female. Food is the best way to a woman’s heart for these eight legged creatures.",
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/woa55.animal-gifts.aly-bh4659-spiders8525244643957514273-900x519.jpeg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons3": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title4": "mitchel jobs",
+          "subtitle4": "Programmer",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_4.jpg"
+            }
+          },
+          "icons4": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-1e"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showImages": true,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Spotted Hyenas",
+          "subtitle1": "<i>Crocuta crocuta</i>",
+          "text1": "he spotted hyena is a female dominant species. So much so, that female hyenas have evolved to have penises as well, or more accurately, pseudo-penesis (fake penis). The female phallus is an enlarged clitoris structure that is used both for reproduction, urination, and giving birth (Cunha, 2003). The social structure of a hyena cackle is organized in a hierarchy of females, while males are paired monogamously (East, 2003). Female selectivity of mates is prominent within this species, male reproductive tactics are generally unsuccessful (East, 2003). Females are clearly a force to be reckoned with. ",
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1371.jpeg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons1": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title2": "Deep Sea Anglerfish",
+          "subtitle2": "<i>Ceratias holboelli</i>",
+          "text2": "Anglerfish have a particularly unique reproductive strategy that scientists may refer to as sexual parasitism (Pietch, 1976). In some families of anglerfish, the males of the species are obligate parasites. This means that in order to survive, they must become a parasite, specifically, the male must become a parasite on a female. Males of these species are generally small, and have evolved morphological differences from allow them to latch onto females, fuse the epidermal tissue, and subsequently gain access to the female’s circulatory system. The male essentially becomes part of the female, and only exists as testes.\n<br>\n<br>",
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/29sci-anglerfish-promo-superjumbo-2048x1365.jpeg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons2": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title3": "Wandering Albatross",
+          "subtitle3": "<i>Diomedea exulans</i>",
+          "text3": "The wandering albatross is a long-lived species of bird that is known for pair-bonding, while they can travel thousands of miles away from each other during migration of for hunting, they are capable of finding their way back to one another. They are a model example of pair-bonded long-term relationships that require higher intelligence to most species (Emery, 2007).",
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1422x1920.jpeg",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "icons3": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title4": "mitchel jobs",
+          "subtitle4": "Programmer",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_4.jpg"
+            }
+          },
+          "icons4": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-1f"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showSubtitle": true,
+            "showText": true,
+            "showImages": true,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/2.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title1": "Anjelin Sparks",
+          "subtitle1": "Project manager",
+          "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_1.jpg",
+              "active": true
+            }
+          },
+          "icons1": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title2": "Jenny Nixon",
+          "subtitle2": "Web-designer",
+          "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_2.jpg",
+              "active": true
+            }
+          },
+          "icons2": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title3": "Gregor Dunkins",
+          "subtitle3": "Art-Director",
+          "text3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_3.jpg",
+              "active": true
+            }
+          },
+          "icons3": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "title4": "mitchel jobs",
+          "subtitle4": "Programmer",
+          "text4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolorem quo in, animi iste magnam, saepe accusantium veritatis vitae perferendis delectus eligendi officia nulla pariatur incidunt culpa vel doloribus rem.",
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/team_item_4.jpg"
+            }
+          },
+          "icons4": "<a data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><span class=\"socicon socicon-google mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" title=\"Youtube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a> ",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-1h",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative mbr-after-navbar\" data-rv-view=\"94\" style=\"background-color: rgb(255, 255, 255);\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 0px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                                      \n                        <div class=\"mbr-cards-col col-md-4 col-sm-6 col-xs-12\">\n                            <div class=\"team-item c-info\">\n                                <div class=\"image\">\n                                    <figure class=\"mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width \"><img src=\"C:\\Users\\Alex\\Downloads\\Hannahs Project\\Bonobo.jpg\" class=\"mbr-figure__img\"></figure>\n                                </div>\n                                <h4 class=\"mbr-editable-content\" code-editable-id=\"83\">Bonobo</h4>\n                                <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"84\"><em>Pan paniscus</em></h5>\n                                <p class=\"mbr-editable-content\" code-editable-id=\"85\">In this species of monkeys, sexual relationships are not all about reproduction. In fact, bonobos have been observed to partake in sexual relationship under many different circumstances, with related and non related individuals, as well as strangers from different clans (Hohmann, 2015). There is also evidence that these relations are known to create social tolerance between individuals. The amount of promiscuity is something that is very uncommon in other non human species.</p>\n                                \n                            </div>\n                        </div>\n\n                    </div>\n\n                </div>\n\n            </div>\n        \n    \n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#ed703c"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2020 All rights reserved. <br>Hannah Booth<br>101083845<br><br>BIOL 3804 Capstone Project<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1c"
+        }
+      ]
+    },
+    "quiz.html": {
+      "settings": {
+        "title": "Quiz",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ed703c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ed703c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ed703c"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ed703c",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ed703c"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ed703c",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"about.html\">About project</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"cdiversity.html\">COURTSHIP DIVERSITY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mechanisms.html\">MECHANISMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"animal-examples.html\">ANIMAL EXAMPLES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"quiz.html\">QUIZ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1920x1269.png",
+              "height": 128,
+              "alt": "Home Logo",
+              "link": "index.html",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-1i"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#eb5a1a"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2020 All rights reserved. <br>Hannah Booth<br>101083845<br><br>BIOL 3804 Capstone Project<br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1j"
+        }
+      ]
+    }
+  }
+}
